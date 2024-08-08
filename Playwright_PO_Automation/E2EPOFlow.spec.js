@@ -18,7 +18,7 @@ test('E2E Positive flow PageObject testcases', async ({ page }) => {
     await login.login('Miketest240611@yopmail.com','Admin@1234');
 
     //---------------------Home Screen---------------//
-    const productName2 = "IPHONE 13 PRO"
+    const productName2 = "ZARA COAT 3"
     //const productTitleName = page.locator(".card-body");
     //const home = new HomePage(page);
     const home = poManager.gethomePage(page);
